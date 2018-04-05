@@ -90,7 +90,7 @@
  }
  .content{
   width: 100%;
-  padding: 64px 0px 32px 0px !important;
+  padding: 0px 0px 32px 0px !important;
  }
  .flex{
   max-width: 100% !important;

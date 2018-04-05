@@ -1,11 +1,6 @@
 <template>
   <v-app id="app">
-    <v-navigation-drawer
-      fixed
-      v-model="drawer"
-      right
-      app
-    >
+    <v-navigation-drawer fixed v-model="drawer" right app>
       <v-list dense>
         <app-form class= app-form></app-form>
       </v-list>
@@ -16,13 +11,12 @@
       <v-toolbar-side-icon @click.stop="drawer = !drawer"></v-toolbar-side-icon>
     </v-toolbar>
     <v-content>
-      <v-container fluid fill-height>
+      <v-container fluid >
         <router-view/>
       </v-container>
     </v-content>
     <v-footer color="cyan" app>
-      <v-spacer></v-spacer>
-      <span class="white--text">&copy; 2017</span>
+      <span class="white--text px-2">kanika kalia</span>
     </v-footer>
   </v-app>
 </template>
@@ -64,4 +58,5 @@
 .app-form{
 padding: 15px;
 }
+
 </style>
