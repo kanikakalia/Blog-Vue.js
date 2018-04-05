@@ -6,7 +6,7 @@
       </v-list>
     </v-navigation-drawer>
     <v-toolbar color="cyan" dark fixed app>
-      <v-toolbar-title>Application</v-toolbar-title>
+      <v-toolbar-title>Blog</v-toolbar-title>
       <v-spacer></v-spacer>
       <v-toolbar-side-icon @click.stop="drawer = !drawer"></v-toolbar-side-icon>
     </v-toolbar>
